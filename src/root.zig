@@ -945,5 +945,6 @@ comptime {
         @compileError("Limine API revision must be 3 or lower");
     }
 
-    std.testing.refAllDeclsRecursive(@This());
+// this doesnt exist anymore in zig 0.16
+//    std.testing.refAllDeclsRecursive(@This());
 }
